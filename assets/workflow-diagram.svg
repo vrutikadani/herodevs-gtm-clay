@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .box{fill:#ffffff;stroke:#cbd5e1;stroke-width:1.5}
+      .gate{fill:#f8fafc;stroke:#94a3b8;stroke-width:1.5}
+      .paid{fill:#fff7ed;stroke:#fdba74;stroke-width:1.5}
+      .human{fill:#f0fdf4;stroke:#86efac;stroke-width:1.5}
+      .t{font-size:14px;font-weight:600;fill:#0f172a}
+      .s{font-size:12px;fill:#334155}
+      .m{font-size:11px;fill:#64748b}
+      .k{font-size:11px;font-weight:600;fill:#9a3412}
+      .line{stroke:#64748b;stroke-width:1.5;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="1200" height="560" fill="#ffffff"/>
+  <text x="24" y="34" font-size="18" font-weight="700" fill="#0f172a">HeroDevs NES · signal-based account prioritization in Clay</text>
+  <text x="24" y="56" class="m">Cheap, deterministic qualification runs first. Paid web research only runs on rows that survive it. Formulas, not the AI, make every decision.</text>
+
+  <!-- row 1 -->
+  <rect class="box" x="24" y="84" width="250" height="118" rx="10"/>
+  <text x="40" y="110" class="t">1 · Signal intake</text>
+  <text x="40" y="132" class="s">Clay Find Jobs: "AngularJS", US/UK</text>
+  <text x="40" y="150" class="s">480 posts found, 50 visible on trial</text>
+  <text x="40" y="168" class="s">+ targeted Vue 2 / non-US searches</text>
+  <text x="40" y="190" class="m">0 credits</text>
+
+  <rect class="human" x="314" y="84" width="250" height="118" rx="10"/>
+  <text x="330" y="110" class="t">Human evidence check</text>
+  <text x="330" y="132" class="s">Open each post, quote the line that</text>
+  <text x="330" y="150" class="s">names the EOL framework</text>
+  <text x="330" y="168" class="s">26 accounts kept (incl. 3 controls)</text>
+  <text x="330" y="190" class="m">job records carry no description text</text>
+
+  <rect class="gate" x="604" y="84" width="270" height="118" rx="10"/>
+  <text x="620" y="110" class="t">2 · ICP gate</text>
+  <text x="620" y="132" class="s">Enrich company · AI business model</text>
+  <text x="620" y="150" class="s">Suppression lookup · Entity check</text>
+  <text x="620" y="168" class="s">→ PASS 11 · REVIEW 4 · FAIL 8 · supp. 3</text>
+  <text x="620" y="190" class="k">0.5 + 0.7 credits / row</text>
+
+  <rect class="box" x="914" y="84" width="262" height="118" rx="10"/>
+  <text x="930" y="110" class="t">0 · Suppression</text>
+  <text x="930" y="132" class="s">28 public HeroDevs customers from</text>
+  <text x="930" y="150" class="s">case studies and logo walls</text>
+  <text x="930" y="168" class="s">lookup by domain → EXCLUDED</text>
+  <text x="930" y="190" class="m">a real deployment uses the CRM</text>
+
+  <path class="line" d="M274 143 H314"/>
+  <path class="line" d="M564 143 H604"/>
+  <path class="line" d="M914 143 H874"/>
+
+  <!-- row 2 -->
+  <rect class="paid" x="604" y="250" width="270" height="130" rx="10"/>
+  <text x="620" y="276" class="t">3 · Signal research (Claygent)</text>
+  <text x="620" y="298" class="s">Run condition: gate ≠ FAIL, not</text>
+  <text x="620" y="316" class="s">suppressed, human quote present</text>
+  <text x="620" y="334" class="s">Returns categories + URLs, not scores</text>
+  <text x="620" y="356" class="s">14 of 26 rows researched</text>
+  <text x="620" y="372" class="k">3 credits / row</text>
+
+  <rect class="gate" x="314" y="250" width="250" height="130" rx="10"/>
+  <text x="330" y="276" class="t">4 · Score, tier, confidence</text>
+  <text x="330" y="298" class="s">S1 EOL exposure 0–50</text>
+  <text x="330" y="316" class="s">S2 migration timing 0–30</text>
+  <text x="330" y="334" class="s">S3 security pressure 0–20</text>
+  <text x="330" y="356" class="s">Guardrails · staleness · REVIEW</text>
+  <text x="330" y="372" class="m">formulas, 0 credits</text>
+
+  <rect class="human" x="24" y="250" width="250" height="130" rx="10"/>
+  <text x="40" y="276" class="t">Human QA of every HIGH</text>
+  <text x="40" y="298" class="s">Open each cited URL</text>
+  <text x="40" y="316" class="s">S1 QA Override column</text>
+  <text x="40" y="334" class="s">2 overrides, 1 hold, 1 caveat</text>
+  <text x="40" y="356" class="s">Notes kept beside the score</text>
+  <text x="40" y="372" class="m">overrides recompute the score</text>
+
+  <path class="line" d="M739 202 V250"/>
+  <path class="line" d="M604 315 H564"/>
+  <path class="line" d="M314 315 H274"/>
+
+  <!-- row 3 -->
+  <rect class="box" x="24" y="428" width="540" height="104" rx="10"/>
+  <text x="40" y="454" class="t">Result: 26 accounts</text>
+  <text x="40" y="476" class="s">HIGH 6 · MEDIUM 3 · REVIEW 1 · LOW 5 · EXCLUDED 11</text>
+  <text x="40" y="494" class="s">Each row: Why This Score · Seller Angle · Next Research Step</text>
+  <text x="40" y="516" class="m">82.3 of 1,000 trial credits used in total</text>
+
+  <rect class="gate" x="604" y="428" width="572" height="104" rx="10"/>
+  <text x="620" y="454" class="t">5 · Buyer committee (top 5 HIGH, not on hold)</text>
+  <text x="620" y="476" class="s">Clay Find People on the 5 domains · 38 people · titles only</text>
+  <text x="620" y="494" class="s">Regex title ladders → ECONOMIC_BUYER / CHAMPION / TECHNICAL_EVALUATOR / SECURITY</text>
+  <text x="620" y="516" class="m">No email or phone enrichment · no contact data leaves Clay</text>
+
+  <path class="line" d="M149 380 V428"/>
+  <path class="line" d="M564 480 H604"/>
+</svg>
