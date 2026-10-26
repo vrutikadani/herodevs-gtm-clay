@@ -35,6 +35,8 @@ The gate runs before any paid research. AI interprets, the formula decides:
 - `ICP Gate` (formula, free): FAIL for services and staffing; REVIEW for an entity mismatch, an unknown business model, or fewer than 11 or unknown employees; otherwise PASS.
 - `Suppressed` (lookup against the customer list, free) is applied in the tier, not the gate, so the reason stays visible.
 
+**The service-provider rule.** A job post from a consultancy or staffing firm is evidence about *a client's* estate, not the firm's own. So service-provider job evidence can never establish S1 on its own. Those rows FAIL the gate before research and are never scored. The only way back in is independent evidence that the firm itself owns and runs the application (for example, its own product's docs or repository), and then a person moves the row to REVIEW, not straight to scoring. That override is manual today; there is no column for it yet. In this build, all 8 such firms (Virtusa, TCS, Ztek, Photon, Quevera, Cadmus, BDO, Cozen O'Connor) were excluded this way.
+
 **Result on 26 accounts:** 11 PASS, 4 REVIEW, 8 FAIL, plus 3 suppression controls. The gate does not use the 1–100 score.
 
 ## Suppression

@@ -5,6 +5,9 @@ Each objection is one a skeptical HeroDevs GTM leader could raise. The answer is
 **1. "Job posts are a lagging, noisy proxy. The companies most stuck on AngularJS may not be hiring at all."**
 Agreed, and this is the biggest blind spot. Job-post intake only sees companies that are hiring. A frozen AngularJS app with no open roles is invisible to it. *Not solved here.* The next sources would be public code (package manifests on company GitHub orgs), passive front-end fingerprinting from public pages via a tech-stack provider, and CVE-driven lists. Each needs its own false-positive handling.
 
+**1b. "You sourced accounts from AngularJS job posts, then made AngularJS your biggest signal. Aren't you preselecting for your own score?"**
+Yes, on purpose. With a 1,000-credit trial, I optimized this version for precision: every account enters with a candidate S1 signal, so paid research is never spent on accounts with nothing to sell into. The cost is that the score cannot show *lift*. Nothing here compares signal accounts against plain ICP accounts. In production I would keep two cohorts: a broad ICP universe sourced on firmographics alone, and the signal-triggered cohort. Then I would compare meeting and estate-confirmation rates between them, to show the signals add something over the ICP baseline.
+
 **2. "26 accounts is not a model, it's a list."**
 True. The build shows the mechanism (gate → gated research → deterministic score → QA). It does not show predictive power. That needs the outcomes described in [MEASUREMENT_PLAN.md](MEASUREMENT_PLAN.md).
 
